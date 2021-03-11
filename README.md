@@ -9,6 +9,6 @@ CircleCI, after being integrated with the project, reruns the above test each ti
 
 For example, I implmented a divide test to test_calculator.py, which failed since its method was not yet implemented. But once the method was implemented in calculator.py, the build succeeded. Below is an image of CircleCI's pipeline for this repository.
 
-![CircleCI pipeline](https://github.com/lemossc/cs362-continuous-integration/blob/master/circleci-example.png)
+![CircleCI pipeline](https://github.com/lemossc/cs362-continuous-integration/blob/master/circleci-example.PNG)
 
 This automates, to a degree, the testing portion of development, allowing developers to focus their attention elsewhere.
