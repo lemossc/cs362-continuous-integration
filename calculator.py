@@ -12,7 +12,11 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    if a == 0 or b == 0:
-        return 0
+    return a * b
+
+
+def divide(a, b):
+    if b == 0:
+        return None
     else:
-        return a * b
+        return a / b
