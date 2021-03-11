@@ -15,4 +15,3 @@ class TestCalculator:
 
     def test_multiply(self):
         assert 2 == calculator.multiply(1, 2)
-
