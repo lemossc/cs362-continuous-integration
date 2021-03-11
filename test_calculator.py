@@ -15,3 +15,4 @@ class TestCalculator:
 
     def test_multiply(self):
         assert 2 == calculator.multiply(1, 2)
+	assert 0 == calculator.multiply(1023, 0)
