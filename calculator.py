@@ -12,4 +12,7 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    return a * b
+    if a == 0 or b == 0:
+        return 0
+    else:
+        return a * b
